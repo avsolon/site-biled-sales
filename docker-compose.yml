@@ -1,7 +1,7 @@
 services:
   site-landing-biled-sales:
     build: .
-    container_name: site-landing-biled-sales
+    container_name: site-biled-sales
     ports:
       - "8090:80"
     restart: unless-stopped
